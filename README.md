@@ -33,12 +33,11 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    git clone https://github.com/yourusername/stats_helper.git
    cd stats_helper
    ```
-## 🚀 Installation
-
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
    ```
+   
 ## 🧪 Testing
     ```bash
    pytest test/ -v
