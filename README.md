@@ -29,7 +29,7 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/stats_helper.git
+   git clone https://github.com/shuhratkulboboev/Stats_helper.git
    cd stats_helper
    ```
 2. Create and activate virtual environment (Windows):
