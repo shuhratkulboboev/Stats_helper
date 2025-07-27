@@ -46,6 +46,7 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    pip install -e
    ```
 ## 🛠 Usage
+Here , the column name can be changed based on users desire , if another dataset is used for testing, it is enough to change path of dataset and respective column name.
 1. Full Dataset Analysis:
    ```bash
    python cli.py data/iris.csv
