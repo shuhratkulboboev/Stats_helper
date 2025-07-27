@@ -7,25 +7,28 @@
 
 A Python package for statistical analysis of CSV datasets with built-in visualization.
 
-## Features
+## ✨ Features
 
-- **Core Statistics**:
-  - Mean, median, mode
-  - Variance, standard deviation
-  - Correlation matrices
+### Core Statistics
+- Descriptive statistics (mean, median, mode)
+- Dispersion metrics (variance, standard deviation)
+- Correlation matrix generation
 
-- **Visualizations**:
+### Visualization
+- Publication-ready plots:
   - Histograms
   - Boxplots
   - Scatter plots
+- Customizable styling and output formats
 
-- **Formats**:
-  - CSV file input
-  - Terminal output
-  - PNG image exports
+### CLI Interface
+- Load data from CSV files
+- Generate summary statistics
+- Export visualizations to files
 
-## Installation
+## 🚀 Installation
 
-### From PyPI (when published)
-```bash
-pip install stats-helper
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/stats_helper.git
+   cd stats_helper
