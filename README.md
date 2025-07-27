@@ -33,12 +33,21 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    git clone https://github.com/yourusername/stats_helper.git
    cd stats_helper
    ```
-2. Install dependencies:
+2. Create and activate virtual environment (Windows):
    ```bash
-   pip install -r requirements.txt
+   python -m venv venv
+   venv\Scripts\activate
    ```
    
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   # For development, also install:
+   pip install -e
+   ```
+## 🛠 Usage
+
 ## 🧪 Testing
    ```bash
-   pytest test/ -v
+   pytest test/ -s -v
    ```
