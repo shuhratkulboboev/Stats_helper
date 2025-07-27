@@ -39,3 +39,7 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    ```bash
    pip install -r requirements.txt
    ```
+## 🧪 Testing
+    ```bash
+   pytest test/ -v
+   ```
