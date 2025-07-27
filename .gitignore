@@ -1,0 +1,63 @@
+### Python ###
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build/installation artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+
+# Unit test/coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+.mypy_cache/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+### Data ###
+# Local data files
+*.csv
+*.data
+*.db
+*.sqlite
+*.feather
+*.parquet
+
+# Plot outputs (comment out if you want to track sample plots)
+*.png
+
+
+### Environment ###
+# Virtual environment
+venv/
+
+
+
+
+### OS generated files ###
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+
+### Documentation ###
+docs/_build/
