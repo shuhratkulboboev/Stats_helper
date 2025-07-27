@@ -39,6 +39,6 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    ```
    
 ## 🧪 Testing
-    ```bash
+   ```bash
    pytest test/ -v
    ```
