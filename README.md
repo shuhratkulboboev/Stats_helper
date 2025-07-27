@@ -46,20 +46,21 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    pip install -e
    ```
 ## 🛠 Usage
-1. Generate Summary Statistics:
+1. Full Dataset Analysis:
    ```bash
    python cli.py data/iris.csv
+   # Output includes:Summary statistics table,Correlation matrix, and Auto-generated scatter plot of first two numeric columns
    ```
 2. Create Visualizations Example:
    Analyze Specific Column (with Auto-Generated Plots)
    ```bash
    python cli.py data.csv --column "column_name"
+   # Creates:"plots/histogram_column_name.png" and "plots/boxplot_column_name.png"
    ```
-   Creates:
-   plots/histogram_column_name.png
-   plots/boxplot_column_name.png
+  Generate Scatter Plot
    ```bash
-   python cli.py data/iris.csv --histogram sepal_length_cm petal_length_cm
+   python cli.py data.csv --scatter "column_x" "column_y"
+   # Creates:plots/scatter_column_x_vs_column_y.png
    ```
 ## 🧪 Testing
    ```bash
