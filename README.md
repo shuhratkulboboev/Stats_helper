@@ -22,7 +22,7 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
 - Customizable styling and output formats
 
 ### CLI Interface
-- Load data from CSV files
+- Load data from CSV files and used iris.csv dataset for checking and testing packages
 - Generate summary statistics
 - Export visualizations to files
 
@@ -54,13 +54,13 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
 2. Create Visualizations Example:
    Analyze Specific Column (with Auto-Generated Plots)
    ```bash
-   python cli.py data.csv --column "column_name"
-   # Creates:"plots/histogram_column_name.png" and "plots/boxplot_column_name.png"
+   python cli.py data.csv --column "sepal length (cm)"
+   # Creates:"plots/histogram_sepal_length.png" and "plots/boxplot_sepal_length.png"
    ```
 3. Generate Scatter Plot
    ```bash
-   python cli.py data.csv --scatter "column_x" "column_y"
-   # Creates:plots/scatter_column_x_vs_column_y.png
+   python cli.py data.csv --scatter "sepal length (cm)" "sepal width (cm)"
+   # Creates:plots/scatter_sepal_length_vs_sepal_width.png
    ```
 ## 🧪 Testing
    ```bash
