@@ -57,7 +57,7 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    python cli.py data.csv --column "column_name"
    # Creates:"plots/histogram_column_name.png" and "plots/boxplot_column_name.png"
    ```
-  Generate Scatter Plot
+3. Generate Scatter Plot
    ```bash
    python cli.py data.csv --scatter "column_x" "column_y"
    # Creates:plots/scatter_column_x_vs_column_y.png
