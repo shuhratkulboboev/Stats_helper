@@ -2,7 +2,6 @@
 # Stats Helper - Statistical Analysis Package
 
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
-![Tests](https://github.com/yourusername/stats_helper/actions/workflows/tests.yml/badge.svg)
 ![Coverage](https://codecov.io/gh/yourusername/stats_helper/branch/main/graph/badge.svg)
 
 A Python package for statistical analysis of CSV datasets with built-in visualization.
@@ -46,7 +45,8 @@ A Python package for statistical analysis of CSV datasets with built-in visualiz
    pip install -e
    ```
 ## 🛠 Usage
-Here , the column name can be changed based on users desire , if another dataset is used for testing, it is enough to change path of dataset and respective column name.
+Here , the column name can be changed based on users desire , if another dataset is used for testing, it is enough to change path of dataset and respective column name.In this scenario, I used Iris.csv dataset.
+
 1. Full Dataset Analysis:
    ```bash
    python cli.py data/iris.csv
