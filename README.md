@@ -67,3 +67,24 @@ Here , the column name can be changed based on users desire , if another dataset
    ```bash
    pytest test/ -s -v
    ```
+## 🚀 Docker Usage
+Build the image:
+```bash
+   docker build -t stats-helper .
+```
+Full analysis:
+```bash
+   docker run --rm `
+  -v "${PWD}\data:/data" `
+  -v "${PWD}\plots:/app/plots" `
+  stats-helper python cli.py /data/iris.csv
+
+```
+Create Visualizations Example:
+```bash
+   docker run --rm `
+  -v "${PWD}\data:/data" `
+  -v "${PWD}\plots:/app/plots" `
+  stats-helper python cli.py /data/data.csv --column "sepal length (cm)"
+
+```
